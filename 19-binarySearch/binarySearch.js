@@ -8,7 +8,7 @@ class MySolution {
     let startNum = 0 
     let endNum = nums.length - 1;
 
-    while (start <= end) {
+    while (start <= endNum) {
 
       let midNum = Math.floor((startNum + endNum) / 2);
 
